@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1c2541;
+  --color-ink-light: #2c3a63;
+  --color-paper: #f7f4ec;
+  --color-gold: #b8862e;
+  --color-gold-light: #e4c77e;
+  --color-line: #dad2be;
+
+  /* keep a small brand scale for status/badges elsewhere in the app */
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #d9e6ff;
+  --color-brand-500: #3b5fe0;
+  --color-brand-600: #2f4bc0;
+  --color-brand-700: #26399a;
+
+  --font-serif: 'Fraunces', ui-serif, Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f5f7fb;
+}
